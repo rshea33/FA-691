@@ -206,12 +206,38 @@ class GAN():
                 latent_space_samples = torch.randn((self.batch_size, 5))
                 gen_samples = self.generator(latent_space_samples)
                 gen_sample_labels = torch.zeros((self.batch_size, 1))
+
+                # make sure the real_sampeles and gen_samples are the same size
+                if len(real_samples) != len(gen_samples):
+                    r_len, g_len = len(real_samples), len(gen_samples)
+                    length = min(r_len, g_len)
+                    print(f"{length = }")
+                    real_samples = real_samples[:length]
+                    gen_samples = gen_samples[:length]
+                    print(f"{len(real_samples) = }, {len(gen_samples) = }")
+                    real_samples_labels = real_samples_labels[:length]
+                    gen_sample_labels = gen_sample_labels[:length]
+
                 all_samples = torch.cat((real_samples, gen_samples))
                 all_sample_labels = torch.cat((
                     real_samples_labels,
                     gen_sample_labels
                 ))
 
+                # else:
+                #     all_samples = torch.cat((real_samples, gen_samples))
+                #     all_sample_labels = torch.cat((
+                #         real_samples_labels,
+                #         gen_sample_labels
+                #     ))
+
+
+
+
+
+
+                print()
+                print(f"{len(real_samples) = }, {len(gen_samples) = }")
               
                 # ---------------------
                 #  Train Discriminator
@@ -236,7 +262,11 @@ class GAN():
                 # -----------------
 
                 # data for training the generator
-                latent_space_samples = torch.randn((self.batch_size, 5))
+                
+                if self.batch_size != len(real_samples):
+                    latent_space_samples = torch.randn((len(real_samples), 5))
+                else:
+                    latent_space_samples = torch.randn((self.batch_size, 5))
 
                 # -----------------
                 #  Train Generator
