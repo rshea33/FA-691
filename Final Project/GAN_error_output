@@ -1,0 +1,637 @@
+(tensorflow) ryanshea@MacBook-Pro-7 Final Project % python3 GAN.py
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 0/311] [D loss: 0.693930] [G loss: 0.688163]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 1/311] [D loss: 0.693182] [G loss: 0.688871]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 2/311] [D loss: 0.693187] [G loss: 0.689567]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 3/311] [D loss: 0.693184] [G loss: 0.690289]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 4/311] [D loss: 0.693158] [G loss: 0.690979]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 5/311] [D loss: 0.693126] [G loss: 0.691612]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 6/311] [D loss: 0.693123] [G loss: 0.692148]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 7/311] [D loss: 0.693132] [G loss: 0.692585]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 8/311] [D loss: 0.693141] [G loss: 0.692996]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 9/311] [D loss: 0.693140] [G loss: 0.693350]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 10/311] [D loss: 0.693166] [G loss: 0.693632]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 11/311] [D loss: 0.693201] [G loss: 0.693867]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 12/311] [D loss: 0.693217] [G loss: 0.694070]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 13/311] [D loss: 0.693237] [G loss: 0.694251]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 14/311] [D loss: 0.693210] [G loss: 0.694454]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 15/311] [D loss: 0.693186] [G loss: 0.694603]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 16/311] [D loss: 0.693133] [G loss: 0.694781]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 17/311] [D loss: 0.693079] [G loss: 0.694945]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 18/311] [D loss: 0.693023] [G loss: 0.695080]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 19/311] [D loss: 0.693030] [G loss: 0.695227]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 20/311] [D loss: 0.692984] [G loss: 0.695268]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 21/311] [D loss: 0.692937] [G loss: 0.695429]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 22/311] [D loss: 0.692928] [G loss: 0.695407]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 23/311] [D loss: 0.692947] [G loss: 0.695309]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 24/311] [D loss: 0.693065] [G loss: 0.694955]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 25/311] [D loss: 0.693189] [G loss: 0.694561]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 26/311] [D loss: 0.693196] [G loss: 0.694509]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 27/311] [D loss: 0.693164] [G loss: 0.694520]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 28/311] [D loss: 0.693045] [G loss: 0.694719]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 29/311] [D loss: 0.692951] [G loss: 0.694716]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 30/311] [D loss: 0.692896] [G loss: 0.694597]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 31/311] [D loss: 0.692920] [G loss: 0.694332]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 32/311] [D loss: 0.693002] [G loss: 0.694093]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 33/311] [D loss: 0.693137] [G loss: 0.693664]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 34/311] [D loss: 0.693288] [G loss: 0.693212]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 35/311] [D loss: 0.693427] [G loss: 0.692920]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 36/311] [D loss: 0.693411] [G loss: 0.692891]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 37/311] [D loss: 0.693256] [G loss: 0.693020]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 38/311] [D loss: 0.693073] [G loss: 0.693309]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 39/311] [D loss: 0.692990] [G loss: 0.693616]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 40/311] [D loss: 0.692870] [G loss: 0.693517]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 41/311] [D loss: 0.692904] [G loss: 0.693345]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 42/311] [D loss: 0.692969] [G loss: 0.693142]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 43/311] [D loss: 0.693093] [G loss: 0.692990]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 44/311] [D loss: 0.693228] [G loss: 0.692866]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 45/311] [D loss: 0.693301] [G loss: 0.692776]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 46/311] [D loss: 0.693460] [G loss: 0.692676]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 47/311] [D loss: 0.693556] [G loss: 0.692522]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 48/311] [D loss: 0.693621] [G loss: 0.692289]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 49/311] [D loss: 0.693617] [G loss: 0.692127]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 50/311] [D loss: 0.693454] [G loss: 0.692277]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 51/311] [D loss: 0.693225] [G loss: 0.692360]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 52/311] [D loss: 0.693028] [G loss: 0.692757]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 53/311] [D loss: 0.692750] [G loss: 0.693175]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 54/311] [D loss: 0.692565] [G loss: 0.693571]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 55/311] [D loss: 0.692445] [G loss: 0.694009]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 56/311] [D loss: 0.692462] [G loss: 0.694428]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 57/311] [D loss: 0.692578] [G loss: 0.694480]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 58/311] [D loss: 0.692892] [G loss: 0.694012]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 59/311] [D loss: 0.693291] [G loss: 0.693231]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 60/311] [D loss: 0.693634] [G loss: 0.692705]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 61/311] [D loss: 0.693770] [G loss: 0.692632]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 62/311] [D loss: 0.693630] [G loss: 0.693478]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 63/311] [D loss: 0.693072] [G loss: 0.694641]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 64/311] [D loss: 0.692466] [G loss: 0.695886]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 65/311] [D loss: 0.691861] [G loss: 0.697661]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 66/311] [D loss: 0.691471] [G loss: 0.698637]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 67/311] [D loss: 0.691324] [G loss: 0.699050]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 68/311] [D loss: 0.691488] [G loss: 0.697958]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 69/311] [D loss: 0.692269] [G loss: 0.696421]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 70/311] [D loss: 0.693290] [G loss: 0.694145]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 71/311] [D loss: 0.694010] [G loss: 0.692903]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 72/311] [D loss: 0.694694] [G loss: 0.692098]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 73/311] [D loss: 0.695369] [G loss: 0.690890]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 74/311] [D loss: 0.695697] [G loss: 0.688829]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 75/311] [D loss: 0.695600] [G loss: 0.687779]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 76/311] [D loss: 0.694681] [G loss: 0.688130]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 77/311] [D loss: 0.693814] [G loss: 0.689226]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 78/311] [D loss: 0.693025] [G loss: 0.690720]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 79/311] [D loss: 0.692477] [G loss: 0.692490]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 80/311] [D loss: 0.691979] [G loss: 0.694624]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 81/311] [D loss: 0.691361] [G loss: 0.696381]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 82/311] [D loss: 0.691021] [G loss: 0.696847]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 83/311] [D loss: 0.690823] [G loss: 0.697531]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 84/311] [D loss: 0.691420] [G loss: 0.695712]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 85/311] [D loss: 0.692789] [G loss: 0.691516]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 86/311] [D loss: 0.693992] [G loss: 0.689039]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 87/311] [D loss: 0.693810] [G loss: 0.689929]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 88/311] [D loss: 0.693227] [G loss: 0.692344]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 89/311] [D loss: 0.692650] [G loss: 0.694825]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 90/311] [D loss: 0.691968] [G loss: 0.697626]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 91/311] [D loss: 0.691527] [G loss: 0.699257]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 92/311] [D loss: 0.691674] [G loss: 0.699233]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 93/311] [D loss: 0.692088] [G loss: 0.698467]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 94/311] [D loss: 0.692240] [G loss: 0.698152]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 95/311] [D loss: 0.692241] [G loss: 0.698908]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 96/311] [D loss: 0.692342] [G loss: 0.699739]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 97/311] [D loss: 0.692512] [G loss: 0.700075]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 98/311] [D loss: 0.692697] [G loss: 0.700578]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 99/311] [D loss: 0.692816] [G loss: 0.700854]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 100/311] [D loss: 0.692899] [G loss: 0.701114]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 101/311] [D loss: 0.693061] [G loss: 0.701273]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 102/311] [D loss: 0.693017] [G loss: 0.701045]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 103/311] [D loss: 0.693122] [G loss: 0.700866]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 104/311] [D loss: 0.693219] [G loss: 0.700456]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 105/311] [D loss: 0.693394] [G loss: 0.699880]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 106/311] [D loss: 0.693557] [G loss: 0.699471]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 107/311] [D loss: 0.693766] [G loss: 0.699072]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 108/311] [D loss: 0.693838] [G loss: 0.698370]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 109/311] [D loss: 0.693984] [G loss: 0.697757]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 110/311] [D loss: 0.694067] [G loss: 0.696514]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 111/311] [D loss: 0.694154] [G loss: 0.695403]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 112/311] [D loss: 0.694016] [G loss: 0.694804]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 113/311] [D loss: 0.693758] [G loss: 0.694189]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 114/311] [D loss: 0.693550] [G loss: 0.693453]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 115/311] [D loss: 0.693360] [G loss: 0.692778]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 116/311] [D loss: 0.693159] [G loss: 0.692148]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 117/311] [D loss: 0.693024] [G loss: 0.691651]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 118/311] [D loss: 0.692931] [G loss: 0.691447]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 119/311] [D loss: 0.692851] [G loss: 0.691685]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 120/311] [D loss: 0.692638] [G loss: 0.692540]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 121/311] [D loss: 0.692426] [G loss: 0.693915]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 122/311] [D loss: 0.692066] [G loss: 0.695925]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 123/311] [D loss: 0.691758] [G loss: 0.698164]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 124/311] [D loss: 0.691469] [G loss: 0.701334]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 125/311] [D loss: 0.691109] [G loss: 0.704439]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 126/311] [D loss: 0.690571] [G loss: 0.707101]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 127/311] [D loss: 0.690539] [G loss: 0.709727]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 128/311] [D loss: 0.690397] [G loss: 0.711958]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 129/311] [D loss: 0.690379] [G loss: 0.713137]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 130/311] [D loss: 0.691045] [G loss: 0.713954]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 131/311] [D loss: 0.691434] [G loss: 0.714217]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 132/311] [D loss: 0.692194] [G loss: 0.714126]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 133/311] [D loss: 0.692823] [G loss: 0.713464]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 134/311] [D loss: 0.692951] [G loss: 0.713789]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 135/311] [D loss: 0.693057] [G loss: 0.713564]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 136/311] [D loss: 0.692967] [G loss: 0.713348]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 137/311] [D loss: 0.693321] [G loss: 0.712472]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 138/311] [D loss: 0.693255] [G loss: 0.711210]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 139/311] [D loss: 0.693565] [G loss: 0.709089]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 140/311] [D loss: 0.693771] [G loss: 0.707308]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 141/311] [D loss: 0.694232] [G loss: 0.704487]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 142/311] [D loss: 0.694915] [G loss: 0.701404]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 143/311] [D loss: 0.695623] [G loss: 0.697982]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 144/311] [D loss: 0.696418] [G loss: 0.694178]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 145/311] [D loss: 0.696808] [G loss: 0.690903]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 146/311] [D loss: 0.696030] [G loss: 0.689100]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 147/311] [D loss: 0.694711] [G loss: 0.688310]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 148/311] [D loss: 0.693651] [G loss: 0.688017]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 149/311] [D loss: 0.693237] [G loss: 0.688005]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 150/311] [D loss: 0.693059] [G loss: 0.687756]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 151/311] [D loss: 0.692587] [G loss: 0.686960]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 152/311] [D loss: 0.692062] [G loss: 0.686692]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 153/311] [D loss: 0.691390] [G loss: 0.686085]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 154/311] [D loss: 0.690901] [G loss: 0.685249]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 155/311] [D loss: 0.690286] [G loss: 0.684522]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 156/311] [D loss: 0.689715] [G loss: 0.684417]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 157/311] [D loss: 0.689012] [G loss: 0.683555]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 158/311] [D loss: 0.688523] [G loss: 0.682796]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 159/311] [D loss: 0.688173] [G loss: 0.682443]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 160/311] [D loss: 0.687577] [G loss: 0.680311]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 161/311] [D loss: 0.687452] [G loss: 0.678874]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 162/311] [D loss: 0.687769] [G loss: 0.676716]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 163/311] [D loss: 0.688368] [G loss: 0.674057]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 164/311] [D loss: 0.689613] [G loss: 0.671801]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 165/311] [D loss: 0.690952] [G loss: 0.668730]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 166/311] [D loss: 0.692475] [G loss: 0.667056]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 167/311] [D loss: 0.693881] [G loss: 0.665275]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 168/311] [D loss: 0.695821] [G loss: 0.663906]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 169/311] [D loss: 0.697907] [G loss: 0.662558]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 170/311] [D loss: 0.699378] [G loss: 0.662661]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 171/311] [D loss: 0.699765] [G loss: 0.665868]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 172/311] [D loss: 0.698301] [G loss: 0.673541]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 173/311] [D loss: 0.695711] [G loss: 0.681877]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 174/311] [D loss: 0.693008] [G loss: 0.688662]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 175/311] [D loss: 0.691182] [G loss: 0.693122]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 176/311] [D loss: 0.690553] [G loss: 0.695278]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 177/311] [D loss: 0.690314] [G loss: 0.695311]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 178/311] [D loss: 0.691270] [G loss: 0.694085]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 179/311] [D loss: 0.692331] [G loss: 0.691943]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 180/311] [D loss: 0.690526] [G loss: 0.694655]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 181/311] [D loss: 0.690075] [G loss: 0.695062]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 182/311] [D loss: 0.690492] [G loss: 0.692328]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 183/311] [D loss: 0.692392] [G loss: 0.687359]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 184/311] [D loss: 0.692921] [G loss: 0.683174]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 185/311] [D loss: 0.692643] [G loss: 0.682407]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 186/311] [D loss: 0.693004] [G loss: 0.680409]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 187/311] [D loss: 0.693804] [G loss: 0.678095]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 188/311] [D loss: 0.694403] [G loss: 0.676556]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 189/311] [D loss: 0.694492] [G loss: 0.676527]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 190/311] [D loss: 0.693988] [G loss: 0.677918]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 191/311] [D loss: 0.693152] [G loss: 0.679857]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 192/311] [D loss: 0.692312] [G loss: 0.681482]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 193/311] [D loss: 0.691954] [G loss: 0.682343]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 194/311] [D loss: 0.691921] [G loss: 0.682655]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 195/311] [D loss: 0.692266] [G loss: 0.682344]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 196/311] [D loss: 0.692686] [G loss: 0.682405]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 197/311] [D loss: 0.693001] [G loss: 0.682874]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 198/311] [D loss: 0.693205] [G loss: 0.683702]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 199/311] [D loss: 0.693208] [G loss: 0.685052]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 200/311] [D loss: 0.693332] [G loss: 0.686239]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 201/311] [D loss: 0.693311] [G loss: 0.687583]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 202/311] [D loss: 0.693499] [G loss: 0.688588]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 203/311] [D loss: 0.693584] [G loss: 0.689380]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 204/311] [D loss: 0.693659] [G loss: 0.690199]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 205/311] [D loss: 0.693941] [G loss: 0.690560]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 206/311] [D loss: 0.694076] [G loss: 0.691221]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 207/311] [D loss: 0.694407] [G loss: 0.691709]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 208/311] [D loss: 0.694400] [G loss: 0.692294]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 209/311] [D loss: 0.694248] [G loss: 0.693275]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 210/311] [D loss: 0.693929] [G loss: 0.694517]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 211/311] [D loss: 0.693477] [G loss: 0.695690]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 212/311] [D loss: 0.692995] [G loss: 0.696408]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 213/311] [D loss: 0.692663] [G loss: 0.696784]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 214/311] [D loss: 0.692502] [G loss: 0.696923]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 215/311] [D loss: 0.692243] [G loss: 0.696743]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 216/311] [D loss: 0.692219] [G loss: 0.696209]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 217/311] [D loss: 0.692073] [G loss: 0.695739]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 218/311] [D loss: 0.692246] [G loss: 0.695046]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 219/311] [D loss: 0.692443] [G loss: 0.694475]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 220/311] [D loss: 0.692569] [G loss: 0.693945]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 221/311] [D loss: 0.692672] [G loss: 0.693476]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 222/311] [D loss: 0.692935] [G loss: 0.692885]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 223/311] [D loss: 0.693146] [G loss: 0.692408]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 224/311] [D loss: 0.693369] [G loss: 0.691858]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 225/311] [D loss: 0.693493] [G loss: 0.691383]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 226/311] [D loss: 0.693597] [G loss: 0.691270]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 227/311] [D loss: 0.693642] [G loss: 0.691147]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 228/311] [D loss: 0.693711] [G loss: 0.691404]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 229/311] [D loss: 0.693619] [G loss: 0.691679]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 230/311] [D loss: 0.693272] [G loss: 0.692170]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 231/311] [D loss: 0.693162] [G loss: 0.692670]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 232/311] [D loss: 0.693035] [G loss: 0.693058]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 233/311] [D loss: 0.692868] [G loss: 0.693388]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 234/311] [D loss: 0.692977] [G loss: 0.693081]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 235/311] [D loss: 0.693086] [G loss: 0.692992]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 236/311] [D loss: 0.693141] [G loss: 0.692953]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 237/311] [D loss: 0.693215] [G loss: 0.692668]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 238/311] [D loss: 0.693580] [G loss: 0.692225]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 239/311] [D loss: 0.693605] [G loss: 0.692098]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 240/311] [D loss: 0.693782] [G loss: 0.691633]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 241/311] [D loss: 0.693982] [G loss: 0.691602]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 242/311] [D loss: 0.694041] [G loss: 0.691495]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 243/311] [D loss: 0.694109] [G loss: 0.691563]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 244/311] [D loss: 0.694124] [G loss: 0.691590]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 245/311] [D loss: 0.693997] [G loss: 0.691707]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 246/311] [D loss: 0.693932] [G loss: 0.691872]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 247/311] [D loss: 0.693781] [G loss: 0.692199]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 248/311] [D loss: 0.693630] [G loss: 0.692625]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 249/311] [D loss: 0.693326] [G loss: 0.693020]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 250/311] [D loss: 0.693080] [G loss: 0.693510]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 251/311] [D loss: 0.692853] [G loss: 0.694052]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 252/311] [D loss: 0.692621] [G loss: 0.694431]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 253/311] [D loss: 0.692348] [G loss: 0.694808]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 254/311] [D loss: 0.691963] [G loss: 0.695005]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 255/311] [D loss: 0.691712] [G loss: 0.695142]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 256/311] [D loss: 0.691494] [G loss: 0.695107]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 257/311] [D loss: 0.691057] [G loss: 0.694971]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 258/311] [D loss: 0.690741] [G loss: 0.694705]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 259/311] [D loss: 0.690277] [G loss: 0.694313]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 260/311] [D loss: 0.689604] [G loss: 0.693645]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 261/311] [D loss: 0.689153] [G loss: 0.693715]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 262/311] [D loss: 0.689090] [G loss: 0.692670]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 263/311] [D loss: 0.689229] [G loss: 0.691514]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 264/311] [D loss: 0.689850] [G loss: 0.690222]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 265/311] [D loss: 0.690631] [G loss: 0.688712]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 266/311] [D loss: 0.691594] [G loss: 0.686896]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 267/311] [D loss: 0.692744] [G loss: 0.685569]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 268/311] [D loss: 0.693726] [G loss: 0.683793]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 269/311] [D loss: 0.695035] [G loss: 0.682301]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 270/311] [D loss: 0.696135] [G loss: 0.680834]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 271/311] [D loss: 0.696963] [G loss: 0.679470]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 272/311] [D loss: 0.697242] [G loss: 0.679429]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 273/311] [D loss: 0.696999] [G loss: 0.681677]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 274/311] [D loss: 0.696556] [G loss: 0.685881]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 275/311] [D loss: 0.694654] [G loss: 0.691070]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 276/311] [D loss: 0.692462] [G loss: 0.696173]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 277/311] [D loss: 0.690889] [G loss: 0.698279]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 278/311] [D loss: 0.689671] [G loss: 0.698751]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 279/311] [D loss: 0.688653] [G loss: 0.697832]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 280/311] [D loss: 0.687168] [G loss: 0.696286]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 281/311] [D loss: 0.685879] [G loss: 0.692199]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 282/311] [D loss: 0.686005] [G loss: 0.689206]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 283/311] [D loss: 0.687076] [G loss: 0.684454]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 284/311] [D loss: 0.688340] [G loss: 0.680364]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 285/311] [D loss: 0.690693] [G loss: 0.676227]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 286/311] [D loss: 0.693193] [G loss: 0.670955]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 287/311] [D loss: 0.695813] [G loss: 0.665798]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 288/311] [D loss: 0.698542] [G loss: 0.660574]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 289/311] [D loss: 0.700867] [G loss: 0.658312]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 290/311] [D loss: 0.702401] [G loss: 0.664582]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 291/311] [D loss: 0.698624] [G loss: 0.680422]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 292/311] [D loss: 0.690942] [G loss: 0.699266]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 293/311] [D loss: 0.684234] [G loss: 0.703890]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 294/311] [D loss: 0.683071] [G loss: 0.703994]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 295/311] [D loss: 0.686585] [G loss: 0.697734]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 296/311] [D loss: 0.692562] [G loss: 0.681825]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 297/311] [D loss: 0.685767] [G loss: 0.695437]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 298/311] [D loss: 0.684540] [G loss: 0.700101]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 299/311] [D loss: 0.686000] [G loss: 0.694776]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 300/311] [D loss: 0.690445] [G loss: 0.685192]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 301/311] [D loss: 0.689975] [G loss: 0.681939]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 302/311] [D loss: 0.690039] [G loss: 0.683127]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 303/311] [D loss: 0.692213] [G loss: 0.680863]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 304/311] [D loss: 0.694425] [G loss: 0.680032]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 305/311] [D loss: 0.695046] [G loss: 0.681376]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 306/311] [D loss: 0.695185] [G loss: 0.683276]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 307/311] [D loss: 0.694974] [G loss: 0.685671]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 308/311] [D loss: 0.694537] [G loss: 0.688669]
+len(output_D) = 256, len(all_sample_labels) = 256
+[Epoch 0/1000] [Batch 309/311] [D loss: 0.694053] [G loss: 0.691397]
+len(output_D) = 156, len(all_sample_labels) = 256
+Traceback (most recent call last):
+  File "GAN.py", line 308, in <module>
+    main()
+  File "GAN.py", line 303, in main
+    gan.train(verbose=True)
+  File "GAN.py", line 227, in train
+    loss_D = self.adversarial_loss(output_D, all_sample_labels)
+  File "/Users/ryanshea/opt/miniconda3/envs/tensorflow/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/ryanshea/opt/miniconda3/envs/tensorflow/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 613, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/Users/ryanshea/opt/miniconda3/envs/tensorflow/lib/python3.8/site-packages/torch/nn/functional.py", line 3074, in binary_cross_entropy
+    raise ValueError(
+ValueError: Using a target size (torch.Size([256, 1])) that is different to the input size (torch.Size([156, 1])) is deprecated. Please ensure they have the same size.
+(tensorflow) ryanshea@MacBook-Pro-7 Final Project % 
