@@ -2,16 +2,17 @@ import torch
 from torch import nn
 import pandas as pd
 import matplotlib.pyplot as plt
-import math
+from _param_dicts import *
+import random
+import numpy as np
 
-torch.manual_seed(0)
 
 class Discriminator(nn.Module):
     """
     Discriminator
 
     Overall architecture:
-    - 6 inputs (5 log returns + 1 label)
+    - 5 inputs
     - 128 neurons (ReLU with dropout 0.2)
     - 1024 neurons (Tanh with dropout 0.4)
     - 256 neurons (ReLU)
@@ -75,12 +76,12 @@ class GAN():
             self, 
             data,
             train_size=0.8,
-            epochs=1000,
+            epochs=300,
             batch_size=128,
             lr=0.001,
             b1=0.9,
             b2=0.999,
-            clip_value=0.01,
+            clip_value=None,
             random_state=None
             ):
         """
@@ -110,7 +111,7 @@ class GAN():
         b2: : float, optional, default=0.999
             beta 2 (for Adam optimizer)
 
-        clip_value: : float, optional, default=0.01
+        clip_value: : float, optional, default=None
             clip value for the weights of the discriminator
 
         random_state: : int, optional, default=None
@@ -138,8 +139,9 @@ class GAN():
         Methods:
 
         train(self, verbose) : trains the model
-            verbose : boolean, optional, default=False
-                if True, prints the loss at each epoch
+            verbose : int, optional, default=False
+                if 1, prints the loss at each epoch
+                if 2, prints the loss at each batch
 
         sample(self, n_samples) : generates n_samples of fake data
 
@@ -197,7 +199,7 @@ class GAN():
 
 
 
-    def train(self, verbose=False):
+    def train(self, verbose=0):
         for epoch in range(self.epochs):
             for n, real_samples in enumerate(self.train_loader):
 
@@ -211,10 +213,8 @@ class GAN():
                 if len(real_samples) != len(gen_samples):
                     r_len, g_len = len(real_samples), len(gen_samples)
                     length = min(r_len, g_len)
-                    print(f"{length = }")
                     real_samples = real_samples[:length]
                     gen_samples = gen_samples[:length]
-                    print(f"{len(real_samples) = }, {len(gen_samples) = }")
                     real_samples_labels = real_samples_labels[:length]
                     gen_sample_labels = gen_sample_labels[:length]
 
@@ -224,21 +224,7 @@ class GAN():
                     gen_sample_labels
                 ))
 
-                # else:
-                #     all_samples = torch.cat((real_samples, gen_samples))
-                #     all_sample_labels = torch.cat((
-                #         real_samples_labels,
-                #         gen_sample_labels
-                #     ))
 
-
-
-
-
-
-                print()
-                print(f"{len(real_samples) = }, {len(gen_samples) = }")
-              
                 # ---------------------
                 #  Train Discriminator
                 # ---------------------
@@ -248,16 +234,15 @@ class GAN():
 
                 output_D = self.discriminator(all_samples)
 
-                print(f"{len(output_D) = }, {len(all_sample_labels) = }")
-
                 loss_D = self.adversarial_loss(output_D, all_sample_labels)
                 loss_D.backward()
 
                 self.optimizer_D.step()
 
                 # Clip weights of discriminator
-                for p in self.discriminator.parameters():
-                    p.data.clamp_(-self.clip_value, self.clip_value)
+                if self.clip_value is not None:
+                    for p in self.discriminator.parameters():
+                        p.data.clamp_(-self.clip_value, self.clip_value)
 
                 # -----------------
 
@@ -283,23 +268,32 @@ class GAN():
                 loss_G.backward()
                 self.optimizer_G.step()
 
-
-                if verbose:
+                if verbose == 2:
                     print(
                         "[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f]"
-                        % (epoch, self.epochs, n, len(self.train_loader), loss_D.item(), loss_G.item())
+                        % (epoch+1, self.epochs, n, len(self.train_loader), loss_D.item(), loss_G.item())
                     )
+                
+            if verbose == 1:
+                print(
+                    "[Epoch %d/%d] [D loss: %f] [G loss: %f]"
+                    % (epoch+1, self.epochs, loss_D.item(), loss_G.item())
+                )
 
 
 
-    def sample(self, n_samples):
+    def sample(self, n_samples, plot=False):
         """
         Generates n_samples of fake data
         """
         noise = torch.randn(n_samples, 5).to(self.device)
+        if plot:
+            plt.plot(self.generator(noise).cpu().detach().numpy().T)
+            plt.show()
 
         return self.generator(noise)
     
+
     def save_model(self, path):
         """
         Save the model as a 'pt` file
@@ -313,26 +307,49 @@ class GAN():
 def main():
     
     data = pd.read_csv('Data/real_returns.csv').drop('Unnamed: 0', axis=1).T
-    
-    gan = GAN(
-        data,
-        epochs=1000,
-        batch_size=128,
-        lr=0.001,
-        b1=0.9,
-        b2=0.999,
-        clip_value=0.01,
-        random_state=0
-    )
+
+    d = {
+        'data': [data],
+        'train_size': [0.7, 0.8, 0.9, 0.95],
+        'epochs': [25, 50, 100, 200, 250, 300, 400, 500],
+        'batch_size': [32, 64, 128, 256, 512, 1024],
+        'lr': [0.0001, 0.0005, 0.001, 0.005, 0.01],
+        'b1': [0.5, 0.6, 0.7, 0.8, 0.9],
+        'b2': [0.9, 0.95, 0.99, 0.999, 0.9999, 0.99999],
+        'clip_value': [0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, None],
+        'random_state': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    }
+
+
+    for i in range(100):
+        params = {}
+        for k in d.keys():
+            params[k] = random.choice(d[k])
+
+        print(i+1)
+        gan = GAN(**params)
+        gan.train(full_verbose=True)
+        samps = gan.sample(1000)
+        samps = pd.DataFrame(samps.detach().numpy())
+        samps.to_csv(f'Data/fake_returns_GAN_{i+1}.csv')
+        gan.save_model(f'model_{i+1}.pt')
+
     
     # print(gan.data.shape)
     # print(len(gan.train_set), len(gan.test_set[1]))
     # print(len(gan.test_set), len(gan.test_set[1]))
     # print(gan.discriminator)
     # print(gan.generator)
-    gan.train(verbose=True)
+    gan.train(full_verbose=True)
 
-    # gan.save_model('model.pt')
+    fake_data = gan.sample(100, plot=True)
+
+    fake_data = pd.DataFrame(fake_data.detach().numpy())
+    print(fake_data.shape)
+    print(fake_data)
+    fake_data.to_csv('Data/fake_returns_GAN.csv')
+
+    gan.save_model('model.pt')
 
 if __name__ == '__main__':
     main()
